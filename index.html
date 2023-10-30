@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretty Little Liars</title>
+    <link rel="stylesheet" href="pll.css">
+</head>
+<body>
+    <nav>
+        <h2>SERIES</h2>
+        <ul>
+            <li>
+                <a href="#">House of the Dragon</a>
+            </li>
+            <li>
+                <a href="#">Game Of Thrones</a>
+            </li>
+            <li>
+                <a href="#">The Originals</a>
+            </li>
+            <li>
+                <a href="#">The Vampire's Diares</a>
+            </li>
+            <li>
+                <a href="#">HeartStopper</a>
+            </li>
+            <li>
+                <a href="#">Pretty Little Liars</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Pretty Little Liars</h1>
+
+    <p>Pretty Little Liars (bra: Maldosas; prt: Pequenas Mentirosas) é uma série de televisão norte-americana baseada na popular série literária de mesmo nome escrita
+         por Sara Shepard. A série segue a vida de cinco melhores amigas cuja amizade se desfez após o desaparecimento de sua líder Alison. Um ano depois, as amigas
+          afastadas Spencer, Hanna, Aria e Emily se reencontram e começam a receber mensagens de uma figura misteriosa chamada "A", que ameaça expor seus segredos mais 
+          profundos. A série apresenta um grande elenco protagonista, liderado por Troian Bellisario como Spencer Hastings, Lucy Hale como Aria Montgomery, Ashley 
+          Benson como Hanna Marin, Shay Mitchell como Emily Fields, Sasha Pieterse como Alison DiLaurentis e Janel Parrish como Mona Vanderwaal.</p>
+    
+
+    <div class="side">
+        <img src="pll img.jpg" id="imag" alt="">
+        <div>
+            <p>Ganhou por 5 vezes consecutivas o Prêmio Teen Choice de Melhor Série de TV – Drama. Estreou em 8 de junho de 2010 no canal Freeform.[nota 1] Após um pedido inicial de 10 episódios, a ABC Family encomendou 12 episódios adicionais em 28 de junho de 2010. O sucesso de audiência dos primeiros 10 episódios levou a série literária a se estender além dos oito livros iniciais.[1] Desde sua estreia, a série recebeu críticas mistas dos críticos de televisão, mas manteve-se um sucesso relativo para a Freeform, conquistando um grande fandom. Em 29 de agosto de 2016, foi oficialmente anunciado o término da série após o fim da sétima temporada.[2] As filmagens da série foram finalizadas em 26 de outubro de 2016.[3]</p>
+            <p>O último episódio da série foi exibido no dia 27 de junho de 2017, transmitido pela emissora Freeform. O final da série foi visto por cerca de 1,41 milhão de telespectadores. Teve a segunda maior classificação de qualquer série de TV a cabo que foi ao ar naquela noite, mas recebeu uma recepção morna tanto da crítica quanto do público.[4] No dia 21 de dezembro de 2020, a série saiu do catálogo do serviço de streaming, Netflix.[5][6] A saída da série está relacionada com a chegada do serviço de streaming da Warner Bros. TV, o HBO Max, cujo lançamento ocorreu em 29 de junho de 2021.[7][8]</p>
+        </div>
+    </div>
+
+    <script>
+        slide1()
+        function slide1(){
+            document.getElementById("imag").src="pll img.jpg";
+            setTimeout("slide2()", 1000)
+        }
+        function slide2(){
+            document.getElementById("imag").src="pll2.jpg";
+            setTimeout("slide1()", 1000)
+        }
+    </script>
+</body>
+</html>
